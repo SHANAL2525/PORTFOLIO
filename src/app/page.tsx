@@ -3,11 +3,12 @@
 import ProjectCard from "@/components/ProjectCard";
 import { projects } from "@/data/projects";
 import { certifications } from "@/data/certifications";
-import { motion } from "framer-motion";
+import { motion, type Transition } from "framer-motion";
 import Image from "next/image";
 
+
 /** Stronger, more visible + smooth animations */
-const smooth = { type: "spring", stiffness: 110, damping: 18, mass: 0.9 };
+const smooth: Transition = { type: "spring", stiffness: 110, damping: 18, mass: 0.9 };
 
 const cardInLeft = {
   hidden: { opacity: 0, x: -45, scale: 0.96, filter: "blur(8px)" },
