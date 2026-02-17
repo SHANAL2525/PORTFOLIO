@@ -3,7 +3,7 @@ export const projects = [
     title: "Factory Machine Monitoring System",
     description:
       "Team-based project focused on monitoring factory machine operations and system status. Built collaboratively using GitHub workflows.",
-    tech: ["Java", "Team Project", "GitHub"],
+    tech: ["Vue.js", "Team Project", "GitHub"],
     github: "https://github.com/Group-Project-Ousl/factory-machine-monitoring-system.git",
     live: "",
   },
